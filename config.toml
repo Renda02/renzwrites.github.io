@@ -1,0 +1,30 @@
+baseURL = 'https://renzwrites.github.io/'
+languageCode = 'en-us'
+title = 'renz.writes'
+
+[params]
+  description = "Building AI-powered documentation systems and automation workflows. Writing about agents, n8n, and building in public."
+  brand = "renz.writes"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "renz.writes"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "work"
+    name = "work"
+    url = "/work/"
+    weight = 2
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 4
+
