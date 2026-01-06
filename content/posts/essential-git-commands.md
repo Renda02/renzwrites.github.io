@@ -1,5 +1,5 @@
 ---
-date: 2025-01-06
+date: 2025-01-05
 title: "Git commands I use daily: From terminal fear to confident workflows"
 ---
 

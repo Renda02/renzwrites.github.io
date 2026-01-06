@@ -1,5 +1,5 @@
 ---
-date: 2025-01-07
+date: 2025-01-06
 title: "Building AI playbook: How I solved cross-functional communication with AI"
 ---
 
