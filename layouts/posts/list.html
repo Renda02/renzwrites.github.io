@@ -1,0 +1,39 @@
+{{ define "main" }}
+<header>
+  <h1>{{ .Title }}</h1>
+  <p>Things I’m learning and building</p>
+</header>
+
+<hr>
+
+<section>
+
+  {{ $pages := .RegularPages }}
+  {{ if not $pages }}
+    {{ $pages = .Pages }}
+  {{ end }}
+
+  {{ if $pages }}
+    {{ range $pages }}
+      <div class="post-item">
+
+        {{ with .Date }}
+        <p class="date">{{ .Format "January 2, 2006" }}</p>
+        {{ end }}
+
+        <h3>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ end }}
+
+      </div>
+    {{ end }}
+  {{ else }}
+    <p>No posts yet.</p>
+  {{ end }}
+
+</section>
+{{ end }}

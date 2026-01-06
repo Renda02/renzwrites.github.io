@@ -1,6 +1,6 @@
 ---
 title: "my year of personal projects"
-description: "AI automation projects, n8n workflows, and documentation systems I'm building."
+description: "AI automation projects, n8n workflows, and documentation systems"
 ---
 
 <section class="project">

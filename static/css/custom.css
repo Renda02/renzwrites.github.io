@@ -66,6 +66,21 @@ blockquote footer {
     font-style: italic;
 }
 
+.post-item {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-item h3 a {
+    text-decoration: none;
+}
+
+
 .project {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
@@ -137,6 +152,11 @@ blockquote footer {
         padding-bottom: 1.5rem;
     }
 
+    .post-item {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
     .project {
         margin-bottom: 2rem;
         padding-bottom: 1.5rem;
@@ -186,6 +206,7 @@ blockquote footer {
     }
 
     .post,
+    .post-item,
     .project {
         margin-bottom: 1.5rem;
         padding-bottom: 1rem;
