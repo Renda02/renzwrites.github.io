@@ -15,8 +15,6 @@ Here's my Git flow and the commands that became part of my daily workflow. The o
 
 ## My daily Git flow
 
-## My daily Git workflow
-
 ### 1. Always start with status
 ```bash
 $ git status  # check branch and changes
@@ -38,34 +36,40 @@ $ git checkout -b feature/update-api-docs
 
 One feature, one branch. Keeps work organized and makes switching tasks easier.
 
-When I noticed something missing or wanted to adjust the same change, I don't create a new "fix" commit. Instead, I used `git commit --amend`.
+### 4. Make your changes, then stage and commit
 ```bash
-$ git add .
-$ git commit --amend --no-edit
+$ git add .  # stage all changes (or git add filename for specific files)
+$ git commit -m "Add API endpoint documentation"
 ```
 
-This kept my commit history clean from the start. No extra cleanup needed later.
-
-### 4. Push to remote and open pull request
+### 5. Push to remote and open pull request
 ```bash
-$ git push -u origin feature/update-api-docs
+$ git push -u origin feature/update-api-docs  # first push
+$ git push  # subsequent pushes
 ```
 
-Then open a pull request (a request for someone to review my changes) for the team to review.
+Then open a pull request for the team to review.
 
-### 5. Use stash when switching tasks mid-work
+### 6. Use stash when switching tasks mid-work
 
-Sometimes I’d be halfway through something and need to switch branches. Instead of committing half-baked changes, I stashed them:
+Sometimes I'd be halfway through something and need to switch branches. Instead of committing half-baked changes, I stashed them:
 ```bash
 $ git stash           # save current changes temporarily
 $ git checkout other-branch # switch branches
 $ git stash pop       # bring changes back later
 ```
-Think of this as my “pause and come back later” button.
+Think of this as my "pause and come back later" button.
+
+### 7. Clean up after merge
+```bash
+$ git checkout main
+$ git pull  # get merged changes
+$ git branch -d feature/update-api-docs  # delete local branch
+```
 
 ---
 
-These six workflow steps became my daily rhythm.
+These seven workflow steps became my daily rhythm.
 
 ## The core commands I used daily:
 
