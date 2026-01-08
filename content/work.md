@@ -1,7 +1,19 @@
 ---
-title: "work experience"
+title: "how i work"
 description: "Career journey from frontend dev to technical writing to AI automation and product ops."
 ---
+
+
+I've spent the last 2 years leading cross-functional docs operations initiatives including platform migrations, localization projects, and process adoption. Here's how I approach this work:
+
+**Proactive**: I independently explore new technologies and approaches that could solve the problem at hand.
+
+**Solution-driven**: I approach every challenge with the belief that there is always a solution to be found.
+
+**Resilient**: I've played a crucial role in solving complex docs tooling challenges with optimism, creativity, and determination.
+
+---
+# Work experience
 
 ## Technical Writer
 
@@ -20,6 +32,9 @@ Leading documentation infrastructure projects and AI automation initiatives. Bui
 
 **Technical stack:** GitBook, GitHub Actions, Stoplight, Confluence, Markdown, Git, Redocly CLI, OpenAPI, CI/CD pipelines, AI automation, prompt engineering, n8n, Vercel
 
+
+---
+
 ## Technical Writer
 
 **MultiSafepay | November 2022 - December 2023**
@@ -33,6 +48,8 @@ Solo technical writer owning the documentation lifecycle across 6+ cross-functio
 - Partnered with the QA team to independently test new features, ensuring accurate documentation and comprehensive edge case coverage, decreasing support tickets and improving overall API usability and reliability
 
 **Technical stack:** Docs-as-code, REST APIs, YAML, OpenAPI specification, Postman, Redocly CLI, Git, GitHub, Agile methodologies
+
+---
 
 ## Frontend Developer
 

@@ -3,13 +3,17 @@ date: 2025-01-06
 title: "Building AI playbook: How I solved cross-functional communication with AI"
 ---
 
-I kept rewriting the same update for different stakeholders. Engineers wanted technical details upfront. Marketing needed business impact. Leadership just wanted the bottom line.
+If you lead cross-functional initiatives, you know explaining context differs by stakeholder. 
 
-30-45 minutes per message. Every time.
+Having led cross-functional initiatives, I kept doing two things that slowed me down:
+- Burying key points in long paragraphs
+- Not stating my ask clearly
+
+I kept rewriting the same update for different stakeholders. Engineers wanted technical details upfront. Marketing needed business impact. Leadership just wanted the bottom line.
 
 The problem wasn't that I didn't know *what* to communicate. I didn't know *how* to structure it for different people.
 
-So I built **Master Your Message (MYM)** - an AI playbook that structures my message in 2 minutes instead of 45.
+So I built Master Your Message (MYM) - an AI playbook that structures my message in 2 minutes instead of 45.
 
 ---
 

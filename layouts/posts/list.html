@@ -4,7 +4,6 @@
   <p>Things I’m learning and building</p>
 </header>
 
-<hr>
 
 <section>
 
@@ -13,8 +12,10 @@
     {{ $pages = .Pages }}
   {{ end }}
 
-  {{ if $pages }}
-    {{ range $pages }}
+  {{ $published := where $pages "Params.status" "!=" "draft" }}
+
+  {{ if $published }}
+    {{ range $published }}
       <div class="post-item">
 
         {{ with .Date }}
