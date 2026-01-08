@@ -1,10 +1,55 @@
+/* Import Space Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 :root {
-    --pico-font-family: 'Montserrat', sans-serif;
+    /* Super Mario color palette */
+    --mario-blue: #5C94FC;
+    --mario-ground: #7C4C28;
+    --mario-brick: #FC9838;
+    --mario-red: #F83800;
+    --mario-coin: #FCC860;
+    --mario-green: #00A800;
+    --mario-text: #FFFFFF;
+    --mario-shadow: #000000;
+    
+    /* Update font to Space Mono */
+    --pico-font-family: 'Space Mono', monospace;
+}
+
+/* Apply Space Mono font globally */
+* {
+    font-family: 'Space Mono', monospace;
 }
 
 body {
     padding: 2rem 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p, a, li, span, div {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
 }
 
 nav ul {
@@ -38,7 +83,7 @@ blockquote footer {
     margin-top: 1rem;
     font-style: normal;
     color: var(--pico-muted-color);
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .post {
@@ -57,7 +102,7 @@ blockquote footer {
 
 .post .date {
     color: var(--pico-muted-color);
-    font-size: 0.9rem;
+    font-size: 14px;
     margin-bottom: 0.75rem;
 }
 
@@ -74,6 +119,20 @@ blockquote footer {
     text-decoration: none;
 }
 
+.post-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-item .date {
+    color: var(--pico-muted-color);
+    font-size: 14px;
+    text-align: left;
+    border-top: 1px solid var(--pico-muted-border-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+}
 
 .project {
     margin-bottom: 3rem;
@@ -91,7 +150,7 @@ blockquote footer {
 
 .project .status {
     color: var(--pico-muted-color);
-    font-size: 0.9rem;
+    font-size: 14px;
     margin-bottom: 1rem;
 }
 
@@ -105,7 +164,7 @@ blockquote footer {
 
 .role .meta {
     color: var(--pico-muted-color);
-    font-size: 0.9rem;
+    font-size: 14px;
     margin-bottom: 1rem;
 }
 
@@ -127,13 +186,17 @@ blockquote footer {
     }
 
     nav ul li a {
-        font-size: 0.95rem;
+        font-size: 14px;
     }
 
     footer {
         margin-top: 3rem;
         padding-top: 1.5rem;
-        font-size: 0.9rem;
+        font-size: 14px;
+    }
+    
+    body {
+        font-size: 14px;
     }
 
     blockquote {
@@ -161,15 +224,19 @@ blockquote footer {
     }
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 18px;
     }
 
     h3 {
-        font-size: 1.25rem;
+        font-size: 16px;
+    }
+    
+    p, a, li, span, div {
+        font-size: 14px;
     }
 }
 
@@ -184,19 +251,23 @@ blockquote footer {
     }
 
     nav ul li a {
-        font-size: 0.9rem;
+        font-size: 14px;
     }
 
     footer {
         margin-top: 2rem;
         padding-top: 1rem;
-        font-size: 0.85rem;
+        font-size: 14px;
+    }
+    
+    body {
+        font-size: 14px;
     }
 
     blockquote {
         padding-left: 0.75rem;
         margin: 1rem 0;
-        font-size: 0.95rem;
+        font-size: 14px;
     }
 
     .post,
@@ -211,15 +282,19 @@ blockquote footer {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 1.25rem;
+        font-size: 18px;
     }
 
     h3 {
-        font-size: 1.1rem;
+        font-size: 15px;
+    }
+    
+    p, a, li, span, div {
+        font-size: 13px;
     }
 }
 

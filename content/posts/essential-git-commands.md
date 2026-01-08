@@ -15,30 +15,30 @@ Here's my Git flow and the commands that became part of my daily workflow. The o
 
 ## My daily Git flow
 
-### 1. Start every session with a status check
+## My daily Git workflow
 
-Before touching any code or documentation, I'd run:
+### 1. Always start with status
 ```bash
-$ git status  # using my alias for git status
+$ git status  # check branch and changes
 ```
 
-This simple habit saved me countless times from working on the wrong branch or committing changes to the wrong place. It became my safety net.
+This habit saved me from working on the wrong branch or committing changes to the wrong place.
 
-### 2. Create feature branches for every change
+### 2. Pull latest changes before creating a branch
 ```bash
-$ git checkout -b feature/update-api-docs  # using alias for checkout
+$ git pull  # get latest changes from remote
 ```
 
-One feature, one branch. This kept my work organized and made it easier to switch tasks when priorities shifted.
+Running `git pull` before creating a new branch ensures you're branching off the most recent code. This prevents merge conflicts later because you're not working on outdated code.
 
-### 3. Make small commits and keep them clean with amend
-
-After my first commit:
+### 3. Create feature branches for every change
 ```bash
-$ git commit -m "Add new API documentation"  # using alias for commit
+$ git checkout -b feature/update-api-docs
 ```
 
-If I noticed something missing or wanted to adjust the same change, I didn’t create a new “fix” commit. Instead, I used ```git commit --amend```.
+One feature, one branch. Keeps work organized and makes switching tasks easier.
+
+When I noticed something missing or wanted to adjust the same change, I don't create a new "fix" commit. Instead, I used `git commit --amend`.
 ```bash
 $ git add .
 $ git commit --amend --no-edit
@@ -65,27 +65,10 @@ Think of this as my “pause and come back later” button.
 
 ---
 
-These six workflow steps became my daily rhythm. But they only worked because I understood the commands powering them. Here's what each command does and why it mattered to my workflow.
-
-## The core commands that made it all work
-
-### Creating aliases: Custom shortcuts
-
-The aliases that changed everything, early on, I learned how to create Git aliases(shortcuts for longer commands). Following the [Git Basics - Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) documentation, I set up:
-```bash
-$ git config --global alias.co checkout
-$ git config --global alias.br branch
-$ git config --global alias.ci commit
-$ git config --global alias.st status
-```
-
-When you're breaking things daily, speed matters, but so does reducing typos. These shortcuts built my muscle memory and confidence.
-
-But aliases are just shortcuts. To really understand my workflow, here are the actual commands I was running every day:
+These six workflow steps became my daily rhythm.
 
 ## The core commands I used daily:
 
-- `git clone` – Create a local copy of a remote repository (the main project stored online)
 - `git branch` – Create, list, and delete branches (separate workspaces for different features)
 - `git checkout` – Switch between branches
 - `git add` – Stage changes for commit (mark files ready to save)
@@ -95,10 +78,11 @@ But aliases are just shortcuts. To really understand my workflow, here are the a
 - `git stash` / `git stash pop` – Temporarily save and retrieve work in progress
 - `git checkout --` – Discard unstaged changes
 - `git commit --amend --no-edit` – Update the last commit without changing the message
+- `git clone` – Create a local copy of a remote repository (the main project stored online)
 
 ---
 
-## Another tip from Javier: keeping commits clean
+## Another tip from Javier included:
 
 As I started committing more frequently, a pattern appeared. I’d make a commit… and then immediately realize:
 
@@ -122,6 +106,8 @@ When to use `--amend`
 - you’re still working on the same logical change
 - you haven’t pushed the commit to the remote yet
 - you want to update or extend the most recent commit
+
+
 
 This lesson from Javier became part of my workflow. Instead of making messy commits and cleaning them up later, I got into the habit of keeping my history clean from the start. It’s a small practice, but it made a big difference in how confidently I worked.
 
