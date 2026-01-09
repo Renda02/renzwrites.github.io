@@ -3,47 +3,20 @@ title: "my year of personal projects"
 description: "AI automation projects, n8n workflows, and documentation systems"
 ---
 
+
 <section class="project">
-<h3>Lumen 1.0 MVP</h3>
-<p class="status">In progress – Demo: January 19, 2025</p>
+<h3>Master Your Message (MYM)</h3>
 
-<p>AI-powered documentation generator for an Education team. Automates the creation of training documentation from product specs and technical resources.</p>
+<p>AI playbook that structures message updates in 2 minutes. Built during The AI Playbook Challenge led by Rachel Woods and her team.</p>
 
-<p><strong>Tech stack:</strong> Amazon Bedrock, AI agents, documentation automation pipelines</p>
-<p><strong>GitHub:</strong> <a href="https://github.com/your-username/lumen" target="_blank">View on GitHub</a></p>
+<p><strong>Try it:</strong> <a href="https://chatgpt.com/g/g-69336ddacc8481919cf45c2120c6b6b8-mym-master-your-message" target="_blank">Use MYM GPT</a></p>
 </section>
 
 <section class="project">
-<h3>AI Accountability Coach</h3>
-<p class="status">In progress – Personal infrastructure project</p>
+<h3>Company Comparison Tool</h3>
 
-<p>Building an AI-powered accountability system using n8n workflows and Telegram integration. Combines fitness goals with career visibility through LinkedIn engagement tracking. Uses AI pattern recognition to provide coaching insights.</p>
+<p>AI-powered company analysis tool. Built in under 1 hour during the Build-a-Product-MVP-with-V0 lab in Maven's AI Agentic Product course.</p>
 
-<p>This project serves dual purposes: personal accountability for my fourth modified 75-day challenge, and portfolio demonstration of AI agent development and workflow automation.</p>
-
-<p><strong>Tech stack:</strong> n8n, Telegram API, AI pattern recognition, workflow automation</p>
-<p><strong>GitHub:</strong> <a href="https://github.com/your-username/ai-accountability-coach" target="_blank">View on GitHub</a></p>
-</section>
-
-<section class="project">
-<h3>DocuAlign</h3>
-<p class="status">Completed – Award: "Best Use of Labs" (Maven Agentic AI certification)</p>
-
-<p>Multi-agent documentation system built during Maven's certification program. Demonstrates practical application of agentic AI for documentation workflows and quality assurance.</p>
-
-<p><strong>Recognition:</strong> Awarded "Best Use of Labs" for innovative implementation and practical approach to solving real documentation challenges.</p>
-
-<p><strong>Tech stack:</strong> AI agents, documentation automation, quality assurance workflows</p>
-<p><strong>GitHub:</strong> <a href="https://github.com/your-username/docualign" target="_blank">View on GitHub</a></p>
-</section>
-
-<section class="project">
-<h3>Company Comparison App</h3>
-<p class="status">Completed – Built with v0.dev</p>
-
-<p>AI-powered application for comparing companies and analyzing competitive positioning. Built using v0.dev and deployed on Vercel.</p>
-
-<p><strong>Tech stack:</strong> v0.dev, Vercel, AI analysis capabilities</p>
-<p><strong>Live site:</strong> <a href="https://your-app.vercel.app" target="_blank">View live</a> | <strong>GitHub:</strong> <a href="https://github.com/your-username/company-comparison" target="_blank">View on GitHub</a></p>
+<p><strong>Live demo:</strong> <a href="https://rendani-lab.vercel.app" target="_blank">Try it live</a> | <strong>GitHub:</strong> <a href="https://github.com/Renda02/company-comparison-frontend" target="_blank">View code</a></p>
 </section>
 
