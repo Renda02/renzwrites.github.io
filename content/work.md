@@ -1,8 +1,6 @@
 ---
 title: "how i work"
-description: "Career journey from frontend dev to technical writing to AI automation and product ops."
 ---
-
 
 I've spent the last 2 years leading cross-functional docs operations initiatives including platform migrations, localization projects, and process adoption. Here's how I approach this work:
 
@@ -11,6 +9,7 @@ I've spent the last 2 years leading cross-functional docs operations initiatives
 **Solution-driven**: I approach every challenge with the belief that there is always a solution to be found.
 
 **Resilient**: I’ve played a crucial role in solving complex documentation tooling challenges with optimism, creativity and determination.
+
 ---
 # Work experience
 
