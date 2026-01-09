@@ -28,7 +28,12 @@
         {{ block "main" . }}{{ end }}
 
         <footer>
-            <p><em>Makwande</em> – let there be growth</p>
+            <p><em>Makwande</em> – let there be growth © <span id="year"></span></p>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
             {{ if ne .RelPermalink "/" }}
             <p><a href="{{ "/" | relURL }}">← back home</a></p>
             {{ end }}

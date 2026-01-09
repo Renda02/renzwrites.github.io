@@ -6,12 +6,11 @@ description: "Career journey from frontend dev to technical writing to AI automa
 
 I've spent the last 2 years leading cross-functional docs operations initiatives including platform migrations, localization projects, and process adoption. Here's how I approach this work:
 
-**Proactive**: I independently explore new technologies and approaches that could solve the problem at hand.
+**Proactive**: I actively seek and test new technologies and approaches to solve complex problems.
 
 **Solution-driven**: I approach every challenge with the belief that there is always a solution to be found.
 
-**Resilient**: I've played a crucial role in solving complex docs tooling challenges with optimism, creativity, and determination.
-
+**Resilient**: I’ve played a crucial role in solving complex documentation tooling challenges with optimism, creativity and determination.
 ---
 # Work experience
 
