@@ -3,6 +3,8 @@
     <h1>{{ .Title }}</h1>
     {{ if .Params.subtitle }}
     <p>{{ .Params.subtitle }}</p>
+    {{ else if .Description }}
+    <p>{{ .Description }}</p>
     {{ end }}
 </header>
 
@@ -10,4 +12,3 @@
     {{ .Content }}
 </section>
 {{ end }}
-
