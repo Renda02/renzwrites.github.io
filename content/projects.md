@@ -3,6 +3,7 @@ title: "my year of personal projects"
 description: "AI automation projects, n8n workflows, and documentation systems"
 ---
 
+---
 ### Master Your Message (MYM)
 
 AI playbook that structures message updates in 2 minutes. Built during The AI Playbook Challenge led by Rachel Woods and her team.
